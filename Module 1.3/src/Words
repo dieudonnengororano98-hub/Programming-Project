@@ -1,0 +1,24 @@
+1 How to draw 1000 ages like the group
+
+Write down every age in the group and how many students have that age. For example: age 19 has 2 students, age 20 has 5 students, and so on.
+Add the counts up as you go: 2, 7, 14, 19, 22, 24, 25. The last number is the total number of students.
+Pick a random number from 1 to 25.
+Look through the list and stop at the first number that is as big as your random number or bigger. The age next to it is your answer.
+Do this 1000 times and count how many times each age came out.
+
+An age with more students gets more of the random numbers, so it comes out more often. That makes the 1000 ages look like the real group.
+
+
+2 Why can’t we make a Singleton with new from outside?
+
+A Singleton is a class where only one object is allowed. To make sure of that, we make its constructor private. A private constructor
+ can only be used inside the class itself. So if someone outside writes new Clock(), Java gives an error. The only way to get the object
+ is getInstance(). The first time, it makes the object. After that, it gives back the same one every time.
+
+ 3 Distributions we can use in the simulator
+
+ Uniform: every number in a range has the same chance. Example: picking a random choice out of equal options.
+ Exponential: used for the waiting time between things that happen randomly. Example: the time between two customers arriving.
+ Normal: most values are near the average, and very few are far away. Example: how tall people are, or how long a service takes.
+ Poisson: how many things happen in a fixed time. Example: how many customers arrive in one hour.
+ Triangular: when you only know the smallest value, the most common value and the biggest value.
