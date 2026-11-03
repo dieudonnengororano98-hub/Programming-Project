@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 
 public class ServicePoint {
-    private LinkedList<Customer> queue = new LinkedList<>();
+    private LinkedList<Customer> queue = new LinkedList<>(); 
     private long totalServiceTime = 0;
     private int servedCount = 0;
 
