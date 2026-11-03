@@ -1,6 +1,6 @@
 public class CustomerGenerator {
     private ServicePoint servicePoint;
-
+ 
     public CustomerGenerator(ServicePoint servicePoint) {
         this.servicePoint = servicePoint;
     }
