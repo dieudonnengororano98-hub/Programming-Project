@@ -1,5 +1,5 @@
 public class Customer {
-    private static int nextId = 1;
+    private static int nextId = 1; 
     private int id;
     private long startTime;
     private long endTime;
