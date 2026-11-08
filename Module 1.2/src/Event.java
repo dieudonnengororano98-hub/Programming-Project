@@ -1,6 +1,6 @@
 import java.time.LocalDateTime;
 
-public class Event implements Comparable<Event> {
+public class Event implements Comparable<Event> { 
 
     private LocalDateTime eventTime;
     private EventType eventType;
