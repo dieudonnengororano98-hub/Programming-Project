@@ -8,7 +8,7 @@ public class EventList {
         events = new PriorityQueue<>();
     }
 
-    public void addEvent(Event event) {
+    public void addEvent(Event event) { 
         events.add(event);
     }
 
