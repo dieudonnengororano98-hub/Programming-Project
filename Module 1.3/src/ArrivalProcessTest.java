@@ -1,5 +1,5 @@
 public class ArrivalProcessTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         EventList list = new EventList();
         ArrivalProcess arrivals = new ArrivalProcess(new Negexp(5, 42), EventType.ARRIVAL);
         Clock clock = Clock.getInstance();
