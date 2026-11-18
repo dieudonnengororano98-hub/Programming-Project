@@ -1,5 +1,5 @@
 public class Clock {
-    private static Clock instance;
+    private static Clock instance; 
     private double time;
 
     private Clock() {
