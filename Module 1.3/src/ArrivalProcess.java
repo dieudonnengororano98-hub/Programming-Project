@@ -3,7 +3,7 @@ public class ArrivalProcess {
     private final EventType type;
 
     public ArrivalProcess(Negexp generator, EventType type) {
-        this.generator = generator;
+        this.generator = generator; 
         this.type = type;
     }
 
