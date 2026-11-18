@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class AgeGenerator {
     private final int[] ages   = {19, 20, 21, 22, 23, 24, 25};
-    private final int[] counts = { 2,  5,  7,  5,  3,  2,  1};
+    private final int[] counts = { 2,  5,  7,  5,  3,  2,  1}; 
     private final int[] cumulative = new int[counts.length];
     private final int total;
     private final Random random;
